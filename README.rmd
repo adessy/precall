@@ -4,16 +4,24 @@ output:
     variant: markdown_github
 ---
 
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
 # precall
 
 `precall` is a simple R package to plot precision-recall curves and to compute the Area Under Precision-Recall curves (AUPR).
 
 You can install the package with:
 
-    ```R
-    if (packageVersion("devtools") < 1.6) {
-      install.packages("devtools")
-    }
-    devtools::install_github("adessy/precall")
-    ```
+```R
+if (packageVersion("devtools") < 1.6) {
+  install.packages("devtools")
+}
+devtools::install_github("adessy/precall")
+```
 

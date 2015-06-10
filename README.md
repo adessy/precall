@@ -5,9 +5,9 @@ precall
 
 You can install the package with:
 
-    ```R
-    if (packageVersion("devtools") < 1.6) {
-      install.packages("devtools")
-    }
-    devtools::install_github("adessy/precall")
-    ```
+``` r
+if (packageVersion("devtools") < 1.6) {
+  install.packages("devtools")
+}
+devtools::install_github("adessy/precall")
+```
