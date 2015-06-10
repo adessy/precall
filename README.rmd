@@ -12,6 +12,8 @@ knitr::opts_chunk$set(
 )
 ```
 
+[![Build Status](https://travis-ci.org/adessy/precall.svg?branch=master)](https://travis-ci.org/adessy/precall)
+
 # precall
 
 `precall` is a simple R package to plot precision-recall curves and to compute the Area Under Precision-Recall curves (AUPR).
