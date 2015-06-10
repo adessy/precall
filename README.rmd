@@ -22,6 +22,8 @@ You can install the package with:
 if (packageVersion("devtools") < 1.6) {
   install.packages("devtools")
 }
+devtools::install_github("hadley/assertthat")
 devtools::install_github("adessy/precall")
 ```
 
+To go through a few examples, you can read the vignette : `vignette("precall", package = "precall")`
