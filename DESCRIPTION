@@ -1,0 +1,17 @@
+Package: precall
+Title: Plot precision-recall curves and computes AUPR
+Authors@R: person("Adrien", "Dessy", email = "adrien.dessy@gmail.com", role = c("aut", "cre"))
+Version: 1.0.0
+Description: Plot precision-recall curves and compute the Area Under
+    Precision-Recall curves.
+Depends:
+    R (>= 3.1.1)
+LazyData: true
+Imports:
+    ggplot2,
+    plyr,
+    assertthat (>= 0.1.0.99),
+    magrittr
+Suggests: knitr
+VignetteBuilder: knitr
+License: file LICENSE
